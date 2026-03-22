@@ -218,8 +218,6 @@ public final class ChunkGenerationManager {
                         }
                     }
                     
-                    if (workDispatched) continue; 
-                    
                     Thread.sleep(100);
                     continue;
                 }
